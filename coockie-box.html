@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#text{
+			border:2px solid #0080a8;
+			text-align: center;
+			background:#0080a8;
+			color:#FFFFFF;
+			font-family: sans-serif;
+			position:absolute;
+			bottom:10px;
+			width: 100%;
+			padding:2% 0;
+			font-size: 24px;
+		}
+		button{
+			background:#ffd700;
+			border-radius: 5px;
+			padding:8px 12px;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+	<div id = "text">
+		<span>This website uses cookies as well as similar tools and technologies to understand visitors' experiences. By continuing to use this website, you consent to Wiley's usage of cookies and similar technologies, in accordance with the </span>
+		<span><a href="">Wiley's cookie policy.</a></span>
+
+		<button onclick="accept()">Got it!</button>	
+	</div>
+	<script type="text/javascript">
+
+		function accept(){
+		 document.getElementById("text").style.display = "none";
+		}
+		// document.getElementsByTagName('h3').innerHTML = 'hi';
+		// document.getElementById("hedo").style.display = "none";
+
+	</script>
+
+</body>
+</html>
